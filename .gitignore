@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+tfenv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+*.env
+
+# Datasets (large files)
+Recaptcha/6k_dataset/
+Recaptcha/archive/
+Recaptcha/captcha_dataset/
+
+# Model files (optional - comment out if you want to include)
+*.h5
+*.keras
+
+# Results and temporary files
+*.csv
+*.xlsx
+*.png
+cap.png
+captcha.png
+result_page.html
+raw_results.csv
+raw_summary.csv
+vtu_results.xlsx
+
+# Node modules
+node_modules/
+package-lock.json
+
+# Build files
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Git
+.git/
